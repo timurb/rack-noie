@@ -1,3 +1,5 @@
+require 'rack'
+
 module Rack
   class NoIE
     def initialize(app, options = {})
