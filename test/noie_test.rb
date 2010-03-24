@@ -3,7 +3,7 @@ require 'test/unit'
 require 'rubygems'
 require 'rack/mock'
 
-require File.join(File.dirname(__FILE__), '..', 'lib', 'noie')
+require File.join(File.dirname(__FILE__), '..', 'lib', 'rack', 'noie')
 
 class TestApp
   def call(env)

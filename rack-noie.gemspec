@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
     "README.markdown",
     "Rakefile",
     "VERSION.yml",
-    "lib/noie.rb",
+    "lib/rack/noie.rb",
     "test/noie_test.rb"
   ]
   s.has_rdoc = true
